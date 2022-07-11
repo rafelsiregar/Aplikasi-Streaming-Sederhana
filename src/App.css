@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div.card{
+  border-color: white;
+  padding : 0.1vh 0.1vw;
+  border-radius: 8px;
+  width: 10vw;
+  
+}
+
+div.column {
+  background-color: #282c34;
+}
+
+.standart {
+  background-color: black;
+  color : white;
+}
+
+.network {
+    background-color: maroon;
+    color : white;
+}
+
+.special {
+  background-color: orange;
+    color : white;
+}
+
+.digital {
+  background-color: rgb(197, 26, 3);
+  color : white;
+}
+
+.local {
+  background-color: rgb(68, 0, 128);
+  color : white;
+}
+
+.tv-photo{
+  padding : 2vh 0vw;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.tv-card:hover {
+  cursor: pointer ;
 }
